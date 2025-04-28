@@ -2,7 +2,7 @@ version: 2.1
 jobs:
   build-and-test:
     machine:
-      image: ubuntu-2404:2024.01.2
+      image: ubuntu-2204:current
     steps:
       - checkout
       - run: make deps
