@@ -3,7 +3,6 @@ jobs:
   build-and-test:
     machine:
       image: ubuntu-2404:2024.01.2
-        
     steps:
       - checkout
       - run: make deps
